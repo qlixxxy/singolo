@@ -1,0 +1,42 @@
+body {
+    width: 1020px;
+    margin: auto;
+    }
+
+.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singolo-header {
+    margin: 34px 454px 36px 40px;
+}
+
+.navigation {
+    margin: 45px 40px 36px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation div {
+    font-size: 12px;
+    line-height: 6px;
+    color: #f06c64;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+h1 {
+    margin: 0px 0px;
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+
