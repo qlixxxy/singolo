@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     width: 1020px;
     margin: auto;
@@ -8,35 +13,119 @@ body {
     height: 89px;
     background-color: #2d303a;
     display: flex;
-    justify-content: space-between;
 }
 
-.singolo-header {
-    margin: 34px 454px 36px 40px;
-}
 
-.navigation {
+
+ul {
+    width: 371px;
+    height: 9px;
     margin: 45px 40px 36px 0px;
     display: flex;
     justify-content: space-between;
     
 }
 
-.navigation div {
+li {
     font-size: 12px;
     line-height: 6px;
-    color: #f06c64;
+    color: white;
     font-family: "Lato";
     font-weight: 700;
     text-align: left;
 }
-h1 {
-    margin: 0px 0px;
-    font-size: 25px;
-    line-height: 6px;
-    color: #ffffff;
-    font-family: "Lato";
-    font-weight: 700;
-    text-align: left;
+li:first-child {
+    list-style: none;
+
+}
+li:hover {
+    color: #f06c64;
+    cursor: pointer;
 }
 
+h1 {
+    width: 115px;
+    height: 20px;
+    margin: 34px 454px 36px 40px;
+    font-size: 25px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.singolo-header span {
+    color: #f06c64;
+}
+.bottom-header {
+width: 1020px;
+height: 6px;
+background-color: #323746;
+}
+
+.background {
+width: 1020px;
+height: 594px;
+background-color: #f06c64;
+}
+.h-phone {
+    margin: 173px 111px 180px 424px;
+    position: absolute;
+}
+.v-phone {
+    margin: 52px 0px 58px 111px;
+    position: absolute;
+
+}
+.move.left {
+    margin: 281px 0px 286px 42px;
+}
+.move.right {
+    margin: 281px 40px 286px 964px;
+}
+.move:hover {
+    cursor: help;
+ 
+}
+
+.move {
+    position: absolute;
+}
+
+.background-gray {
+width: 1020px;
+height: 495px;
+background-color: #f2f2f2;
+}
+
+.bottom-main {
+width: 1020px;
+height: 6px;
+background-color: #ea676b;
+}
+.gray-header {
+position: absolute;
+margin: 68px auto auto 40px;
+font-size: 30px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+letter-spacing: 1px;
+
+}
+
+.text {
+position: absolute;
+margin: 128px 40px 326px 41px;
+width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+
+}
