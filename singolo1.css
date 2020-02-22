@@ -20,7 +20,7 @@ body {
 ul {
     width: 371px;
     height: 9px;
-    margin: 45px 40px 36px 0px;
+    margin: 46px 40px 0px 0px;
     display: flex;
     justify-content: space-between;
     
@@ -33,6 +33,8 @@ li {
     font-family: "Lato";
     font-weight: 700;
     text-align: left;
+    list-style: disc;
+    letter-spacing: -0.2px;
 }
 li:first-child {
     list-style: none;
@@ -43,16 +45,21 @@ li:hover {
     cursor: pointer;
 }
 
-h1 {
+.singolo-header {
     width: 115px;
     height: 20px;
     margin: 34px 454px 36px 40px;
+
+}
+
+h1 {
     font-size: 25px;
     line-height: 20px;
     color: #ffffff;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     text-align: left;
+    letter-spacing: -0.5px;
 }
 .singolo-header span {
     color: #f06c64;
@@ -63,7 +70,7 @@ height: 6px;
 background-color: #323746;
 }
 
-.background {
+.main {
 width: 1020px;
 height: 594px;
 background-color: #f06c64;
@@ -92,10 +99,11 @@ background-color: #f06c64;
     position: absolute;
 }
 
-.background-gray {
+.footer {
 width: 1020px;
-height: 495px;
+height: 494px;
 background-color: #f2f2f2;
+position: relative;
 }
 
 .bottom-main {
@@ -103,29 +111,122 @@ width: 1020px;
 height: 6px;
 background-color: #ea676b;
 }
-.gray-header {
-position: absolute;
-margin: 68px auto auto 40px;
-font-size: 30px;
-line-height: 18px;
-color: #666d89;
-font-family: "Lato";
-font-weight: 900;
-text-align: left;
-letter-spacing: 1px;
+.footer-header h2 {
+    position: absolute;
+    margin: 68px 0px 0px 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.2px;
 
 }
 
-.text {
-position: absolute;
-margin: 128px 40px 326px 41px;
-width: 940px;
-height: 57px;
-font-size: 18px;
-line-height: 30px;
-color: #767e9e;
-font-family: "Lato";
-font-weight: 300;
-text-align: left;
+.footer-text {
+    position: absolute;
+    margin: 113px 40px 0px 40px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.14px;
+
+}
+
+.footer-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+.labels {
+    height: 207px;
+    width: 940px;
+    position: absolute;
+    margin: 220px 41px 0px 41px;
+    display: grid;
+    grid-template-columns: 59px 20px 220px 20px 59px 20px 220px 21px 59px 20px 220px;
+    grid-template-rows: 84px 39px 84px;
+
+}
+.label.design {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.container.design {
+    grid-area: 1 / 3 / 2 / 4;
+}
+.label.ideas {
+    grid-area: 1 / 5 / 2 / 6;
+}
+.container.ideas {
+    grid-area: 1 / 7 / 2 / 8;
+}
+.label.love {
+    grid-area: 1 / 9 / 2 / 10;
+
+}
+.container.love {
+    grid-area: 1 / 11 / 2 / 12;
+}
+.label.layout {
+    grid-area: 3 / 1 / 4 / 2;
+}
+.container.layout {
+    grid-area: 3 / 3 / 4 / 4;
+}
+.label.support {
+    grid-area: 3 / 5 / 4 / 6;
+}
+.container.support {
+    grid-area: 3 / 7 / 4 / 8;
+}
+.label.star {
+    grid-area: 3 / 9 / 4 / 10;
+}
+.container.star {
+    grid-area: 3/ 11 / 4 / 12;
+}
+
+
+.container.love h3,
+.container.star h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-top: -1px;
+    letter-spacing: -0.11px;
+}
+
+
+h4 {
+    width: 219px;
+    font-size: 12px;
+    line-height: 21.8px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 0.5px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: -1px;
+    letter-spacing: -0.1px;
 
 }
