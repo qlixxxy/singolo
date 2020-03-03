@@ -21,18 +21,20 @@ footer {
     width: 1020px;
     height: 76px;
     background-color: #2d303a;
+    position: relative;
 }
 
 h1 {
-    position: absolute;
     font-size: 30px;
     color: #f0d8d9;
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
     padding: 59px 0 0 40px;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.2px;
 }
+
+
 h2 {
     width: 940px;
     font-size: 18px;
@@ -40,5 +42,120 @@ h2 {
     color: #f0d8d9;
     font-family: "Lato";
     font-weight: 300;
+    padding: 18px 0 0 40px;
+    text-align: justify;
+}
+.input {
+    width: 619px;
+    height: 38px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #d6564f;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 0 0 1px 14.2px;
+}
+.input::placeholder {
+    font-size: 12px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
     text-align: left;
+    
+    
+}
+
+.input.project {
+    height: 202px;
+    padding: 0 0 168px 14.2px;
+}
+
+
+
+.form-contact {
+    position: relative;
+    display: flex;
+    padding: 36px 30px 0 30px;
+}
+
+.form-container, .contact {
+    margin: 0 10px
+}
+
+h3 {
+    font-size: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.09px;
+    padding: 6px 0 0 1px;
+}
+
+
+
+h4 {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+    padding: 7px 0 0 1px;
+    letter-spacing: -0.04px;
+}
+.navigation {
+    padding: 21px 0 0 1px;
+    display: flex;
+}
+
+.images-container {
+    width: 13px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 0 0;
+    
+}
+.phone {
+    padding: 0 0 5px 0px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h5 {
+    font-size: 12px;
+    line-height: 21px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: -0.04px;
+}
+.info {
+    padding: 0px 0 0px 10px;
+}
+.footer-container {
+
+    display: flex;
+    padding: 22px 40px;
+}
+.socials {
+    display: flex;
+    padding: 0 0 0 690px;
+}
+.social {
+    margin: 0 4px;
+}
+.social:hover {
+    cursor: pointer;
+}
+.copyright {
+    padding: 8px 0 0 2px;
 }
