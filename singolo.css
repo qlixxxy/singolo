@@ -1,0 +1,242 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.singolo1 {
+    position: relative;
+}
+.singolo2 {
+    position: relative;
+}
+
+.singolo3 {
+    position: relative;
+}
+
+
+
+
+.singolo1.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+}
+
+
+
+.singolo1 ul {
+    width: 371px;
+    height: 9px;
+    margin: 46px 40px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.singolo1 li {
+    font-size: 12px;
+    line-height: 6px;
+    color: white;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    list-style: disc;
+    letter-spacing: -0.2px;
+}
+.singolo1 li:first-child {
+    list-style: none;
+
+}
+.singolo1 li:hover {
+    color: #f06c64;
+    cursor: pointer;
+}
+
+.singolo1.singolo-header {
+    width: 115px;
+    height: 20px;
+    margin: 34px 454px 36px 40px;
+
+}
+
+.singolo1 h1 {
+    font-size: 25px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+.singolo1.singolo-header span {
+    color: #f06c64;
+}
+.singolo1.bottom-header {
+width: 1020px;
+height: 6px;
+background-color: #323746;
+}
+
+.singolo1.main {
+width: 1020px;
+height: 594px;
+background-color: #f06c64;
+}
+.singolo1.h-phone {
+    margin: 173px 111px 180px 424px;
+    position: absolute;
+}
+.singolo1.v-phone {
+    margin: 52px 0px 58px 111px;
+    position: absolute;
+
+}
+.singolo1.move.left {
+    margin: 281px 0px 286px 42px;
+}
+.singolo1.move.right {
+    margin: 281px 40px 286px 964px;
+}
+.singolo1.move:hover {
+    cursor: help;
+ 
+}
+
+.singolo1.move {
+    position: absolute;
+}
+
+.singolo1.footer {
+width: 1020px;
+height: 494px;
+background-color: #f2f2f2;
+position: relative;
+}
+
+.singolo1.bottom-main {
+width: 1020px;
+height: 6px;
+background-color: #ea676b;
+}
+.singolo1.footer-header h2 {
+    position: absolute;
+    margin: 68px 0px 0px 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.2px;
+
+}
+
+.singolo1.footer-text {
+    position: absolute;
+    margin: 113px 40px 0px 40px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.14px;
+
+}
+
+.singolo1.footer-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+.singolo1.labels {
+    height: 207px;
+    width: 940px;
+    position: absolute;
+    margin: 220px 41px 0px 41px;
+    display: grid;
+    grid-template-columns: 59px 20px 220px 20px 59px 20px 220px 21px 59px 20px 220px;
+    grid-template-rows: 84px 39px 84px;
+
+}
+.singolo1.label.design {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.singolo1.container.design {
+    grid-area: 1 / 3 / 2 / 4;
+}
+.singolo1.label.ideas {
+    grid-area: 1 / 5 / 2 / 6;
+}
+.singolo1.container.ideas {
+    grid-area: 1 / 7 / 2 / 8;
+}
+.singolo1.label.love {
+    grid-area: 1 / 9 / 2 / 10;
+
+}
+.singolo1.container.love {
+    grid-area: 1 / 11 / 2 / 12;
+}
+.singolo1.label.layout {
+    grid-area: 3 / 1 / 4 / 2;
+}
+.singolo1.container.layout {
+    grid-area: 3 / 3 / 4 / 4;
+}
+.singolo1.label.support {
+    grid-area: 3 / 5 / 4 / 6;
+}
+.singolo1.container.support {
+    grid-area: 3 / 7 / 4 / 8;
+}
+.singolo1.label.star {
+    grid-area: 3 / 9 / 4 / 10;
+}
+.singolo1.container.star {
+    grid-area: 3/ 11 / 4 / 12;
+}
+
+
+.singolo1.container.love h3,
+.singolo1.container.star h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-top: -1px;
+    letter-spacing: -0.11px;
+}
+
+
+.singolo1 h4 {
+    width: 219px;
+    font-size: 12px;
+    line-height: 21.8px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 0.5px;
+}
+.singolo1 h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: -1px;
+    letter-spacing: -0.1px;
+
+}
