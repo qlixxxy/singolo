@@ -20,7 +20,13 @@ body {
     position: relative;
 }
 
-.singolo-1 .header {
+.sticky {
+    top: 0;
+    position: sticky;
+    z-index: 3;
+}
+
+.sticky .header {
     width: 1020px;
     height: 89px;
     background-color: #2d303a;
@@ -29,42 +35,51 @@ body {
 
 
 
-.singolo-1 ul {
+.sticky ul {
     width: 371px;
     height: 9px;
-    margin: 46px 40px 0px 0px;
+    margin: 40px 40px 0px 0px;
     display: flex;
     justify-content: space-between;
     
 }
 
-.singolo-1 li {
+.sticky a {
     font-size: 12px;
     line-height: 6px;
-    color: white;
+    color: #ffffff;
     font-family: "Lato";
     font-weight: 700;
     text-align: left;
-    list-style: disc;
     letter-spacing: -0.2px;
+
 }
-.singolo-1 li:first-child {
+
+.sticky a:hover {
+    color:  #f06c64;
+
+
+}
+
+
+
+
+.sticky li:first-child {
     list-style: none;
-
 }
-.singolo-1 li:hover {
-    color: #f06c64;
-    cursor: pointer;
+.sticky li {
+    list-style: disc;
+    color: white;
 }
 
-.singolo-1 .singolo-header {
+.sticky .singolo-header {
     width: 115px;
     height: 20px;
     margin: 34px 454px 36px 40px;
 
 }
 
-.singolo-1 h1 {
+.sticky h1 {
     font-size: 25px;
     line-height: 20px;
     color: #ffffff;
@@ -73,10 +88,10 @@ body {
     text-align: left;
     letter-spacing: -0.5px;
 }
-.singolo-1 .singolo-header span {
+.sticky .singolo-header span {
     color: #f06c64;
 }
-.singolo-1 .bottom-header {
+.sticky .bottom-header {
 width: 1020px;
 height: 6px;
 background-color: #323746;
@@ -87,6 +102,7 @@ width: 1020px;
 height: 594px;
 background-color: #f06c64;
 }
+
 .singolo-1 .h-phone {
     margin: 173px 111px 180px 424px;
     position: absolute;
@@ -307,7 +323,9 @@ background-color: #ea676b;
     text-align: left;
     list-style: none;
     border-radius: 5px;
-    border: 1px solid #666d89;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#666d89;
     line-height: 20px;
 }
 
@@ -342,8 +360,13 @@ background-color: #ea676b;
 }
 
 .singolo-2 .image {
-    margin: 10px;
+    margin: 5px;
     height: 187px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #2d303a;
+
+
 }
 
 .singolo-2 h3 {
@@ -619,3 +642,87 @@ background-color: #ea676b;
     text-align: justify;
     letter-spacing: -0.1px;
 }
+a {
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition: 0.5s;
+}
+
+
+.highlighted {
+    color: white;
+    border: 1px solid white;
+
+}
+
+.blackscreen {
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 200ms;
+
+}
+
+
+.h {
+    width: 333px;
+    height: 188px;
+    position: absolute;
+    top: 15px;
+    left: 61px;
+}
+
+.v {
+    width: 188px;
+    height: 333px;
+    position: absolute;
+    top: 66px;
+    left: 15px;
+
+}
+
+#section1 {
+    height: 594px;
+    display: flex;
+    width: 2040px;
+
+}
+
+.controls {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+}
+
+
+#moveleft {
+    position: relative;
+    left: 41px;
+    top: 281px;
+}
+
+#moveright {
+    position: relative;
+    right: -948px;
+    top: 281px;
+}
+
+#moveright, #moveleft:hover {
+    cursor: pointer
+}
+#slide1 {
+    position: relative;
+ 
+
+}
+
+#slide2 {
+    position: relative;
+
+}
+
+main {
+    overflow: hidden;
+}
+
