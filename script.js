@@ -164,7 +164,6 @@ function slideRight () {
 
 function scrollNavigation() {
 let offset = window.pageYOffset;
-console.log(offset)
 if (offset > 0 && offset < 600) {
     document.querySelector("#singolo1 > div > nav > ul > li:nth-child(2) > a").style.color = "#ffffff"
     document.querySelector("#singolo1 > div > nav > ul > li:nth-child(1) > a").style.color = "#f06c64"

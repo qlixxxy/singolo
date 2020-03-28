@@ -1,11 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
-    width: 1020px;
+    width: 100%;
     margin: auto;
+    max-width: 1020px;
 }
 
 
@@ -27,10 +29,11 @@ body {
 }
 
 .sticky .header {
-    width: 1020px;
+    width: 100%;
     height: 89px;
     background-color: #2d303a;
     display: flex;
+    max-width: 1020px;
 }
 
 
@@ -726,3 +729,86 @@ main {
     overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    .v {
+        width: 142px;
+        height: 250px;
+        position: absolute;
+        top: 49px;
+        left: 11px;
+    }
+    #slide1 > div > div.v-phone > img {
+        height: 363px;
+    }   
+    #section1 {
+        height: 447px;
+        display: flex;
+        width: 2040px;
+    }
+    #slide1 > div > div.h-phone > img {
+        height: 162px;
+    }
+    #slide1 > div > div.h-phone {
+        margin: 173px 0 0 490px;
+    }
+    #slide1 > div > div.h-phone > div {
+        width: 224px;
+        height: 127px;
+        position: absolute;
+        top: 10px;
+        left: 41px;
+    }
+    #slide1 > div > div.v-phone {
+        margin: 50px 0px 0px 216px;
+        position: absolute;
+    }
+    #slide2 > img {
+        height: 447px;
+        width: 1019.563px;
+    }
+    #moveleft {
+        left: 29px;
+        top: 214px;
+    }
+
+    #moveright {
+        position: relative;
+        right: -964px;
+        top: 214px;
+    }
+    #section2 > div.labels {
+        position: absolute;
+        margin: 220px 0px 0px 41px;
+        display: grid;
+        grid-template-columns: 59px 48px 220px 285px 59px 48px 220px;
+        grid-template-rows: 84px 39px 84px 39px 84px;
+    }
+    body > div.singolo-1 > main > div.footer {
+        height: 674px;
+    }
+    #section2 > div.labels > div.label.support {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    #section2 > div.labels > div.container.support {
+        grid-area: 5 / 3 / 6 / 4;
+        
+    }
+    #section2 > div.labels > div.label.layout {
+        grid-area: 3 / 5 / 4 / 6;
+    }
+    .singolo-1 .container.layout {
+        grid-area: 3 / 7 / 4 / 7;
+    }
+    .singolo-1 .label.love {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .singolo-1 .container.love {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+    .singolo-1 .label.star {
+        grid-area: 5 / 5 / 6 / 6;
+    }
+    .singolo-1 .container.star {
+        grid-area: 5/ 7 / 6 / 8;
+    }
+}
